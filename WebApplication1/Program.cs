@@ -51,7 +51,7 @@ namespace WebApplication1
                     certificatePayload = memoryStream.ToArray();
                 }
 
-                return new X509Certificate2(certificatePayload, "testPassword");
+                return new X509Certificate2(certificatePayload, "badminton14");
             }
         }
     }
